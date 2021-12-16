@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rpr.javafx_primjer.PopUpController">
+   <children>
+      <Label layoutX="188.0" layoutY="28.0" text="Pozdravna poruka">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="labela" layoutX="14.0" layoutY="161.0" text="Dobro došao korisniče: ">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="240.0" layoutY="314.0" mnemonicParsing="false" onAction="#btnZatvori" prefHeight="59.0" prefWidth="144.0" text="ZATVORI" />
+   </children>
+</AnchorPane>
